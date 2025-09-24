@@ -2,7 +2,7 @@ setwd("C:\\Users\\ASUS\\Desktop\\Lab 08")
 
 
 data <- read.table("Data - Lab 8.txt", header = TRUE)
-laptop_bag_weights <- data[[1]]  # Extract the first column (adjust if necessary)
+laptop_bag_weights <- data[[1]]  
 
 population_mean <- mean(laptop_bag_weights)
 population_sd <- sd(laptop_bag_weights)
@@ -33,4 +33,5 @@ cat("Mean of Sample Means:", mean_sample_means, "\n")
 cat("Standard Deviation of Sample Means:", sd_sample_means, "\n")
 cat("True Population Mean:", population_mean, "\n")
 cat("True Population Standard Deviation:", population_sd, "\n")
+
 
